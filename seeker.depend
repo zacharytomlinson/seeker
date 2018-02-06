@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1482950581 source:c:\users\satoshi nakamoto\desktop\seeker\main.cpp
+	<iostream>
+	<fstream>
+	<dirent.h>
+	<stdio.h>
+	<string>
+	<sys/stat.h>
+

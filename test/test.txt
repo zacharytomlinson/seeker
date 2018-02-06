@@ -1,0 +1,10 @@
+function programIdList($Filter)
+{
+    $sql = "SELECT top 1000 [WFID], ";
+    $sql .= "[PROGRAM_TITLE] ";
+    $sql .= "FROM SEAGATE.NG_WF_MASTER ";
+    $sql .= "where (Program_title like '%" . $Filter . "%'  or wfid like '%" . $Filter . "%') ";
+    $sql .= "order by program_title";
+    $query = $this->db->query($sql);
+    return $query->result();
+}
