@@ -7,3 +7,11 @@
 	<string>
 	<sys/stat.h>
 
+1662005169 source:/home/satoshi/seeker/main.cpp
+	<iostream>
+	<fstream>
+	<dirent.h>
+	<stdio.h>
+	<string>
+	<sys/stat.h>
+
